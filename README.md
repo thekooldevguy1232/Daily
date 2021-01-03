@@ -31,6 +31,9 @@ Went on a trip and had load of fun
 
 Practice typing again  - https://www.typingclub.com/sportal/program-3/3060.play
 
+TODO - BOT FOR TRADING SHITCOINS 
+
+
 
 
 
