@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nifty Fifty</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            background-color: #34312d;
+            color: whitesmoke;
+            margin: 0px !important;
+        }
+
+        header {
+            height: 70px;
+            background-color: #495057;
+        }
+
+        main {
+            padding: 50px 100px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-top: 10px;
+        }
+
+        .card {
+            margin: 0 50px 50px 0;
+        }
+
+        .layout {
+            background-color: #495057;
+            height: 250px;
+            width: 250px;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            padding: 0 30px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .artist-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 30%;
+        }
+
+        .search-bar {
+            display: block;
+            width: 300px;
+        }
+
+        .search-bar input {
+            width: 250px;
+            height:30px;
+            background-color:transparent;
+            color: whitesmoke;
+            border: none;
+        }
+
+        .search-bar input:focus {
+            border: 0;
+        }
+
+        .search-bar span {
+            vertical-align: middle;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Nifticity</h2>
+        <form class="search-bar">
+            <input type="text" placeholder="search">
+            <span class="material-icons">
+                search
+                </span>
+        </form>
+        <div class="artist-details">
+            <h2>Artists</h2>
+            
+            <h2>Stories</h2>
+            <span class="material-icons">
+                account_circle
+            </span>
+        </div>
+    </header>
+    <main>
+        <h2>Latest Drops</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="layout"></div>
+                <h4>Album</h4>
+                <p>Artist</p>
+            </div>
+            <div class="card">
+                <div class="layout"></div>
+                <h4>Album</h4>
+                <p>Artist</p>
+            </div>
+            <div class="card">
+                <div class="layout"></div>
+                <h4>Album</h4>
+                <p>Artist</p>
+            </div>
+            <div class="card">
+                <div class="layout"></div>
+                <h4>Album</h4>
+                <p>Artist</p>
+            </div>
+            <div class="card">
+                <div class="layout"></div>
+                <h4>Album</h4>
+                <p>Artist</p>
+            </div>
+            <div class="card">
+                <div class="layout"></div>
+                <h4>Album</h4>
+                <p>Artist</p>
+            </div>
+            <div class="card">
+                <div class="layout"></div>
+                <h4>Album</h4>
+                <p>Artist</p>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
